@@ -28,7 +28,7 @@ namespace TestePleno
                 var fareController = new FareController();
                 fareController.CreateFare(fare, operatorCodeInput);
 
-                Console.WriteLine("Tarifa cadastrada com sucesso!");
+                Console.WriteLine("Tarifa cadastrada com sucesso, pois não há nenhuma tarifa idêntica a essa cadastrada nos últimos 6 meses.!");
                 Console.WriteLine("**************************************");
 
             }
